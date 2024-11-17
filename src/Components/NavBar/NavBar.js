@@ -5,9 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import "./NavBar.css"
 
 
-class NavBar extends React.Component {
-
-  render(){
+function NavBar() {
     return (
       <div>
         <Navbar className = "navbar" expand="lg" sticky='top'>
@@ -18,8 +16,8 @@ class NavBar extends React.Component {
             <Navbar.Toggle/>
             <Navbar.Collapse className='icons'>
             <Nav className="nav-data">
-            <button className= "menu-data"> Login </button>
-            
+            <button className="menu-data"> Contact Us</button>
+            <button className= "menu-data"> Login </button>     
             </Nav>
             </Navbar.Collapse>
             
@@ -28,6 +26,5 @@ class NavBar extends React.Component {
     </div>
   )
   }
-}
 
 export default NavBar;
