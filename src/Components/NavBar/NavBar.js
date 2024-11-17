@@ -13,16 +13,11 @@ class NavBar extends React.Component {
         <Navbar className = "navbar" expand="lg" sticky='top'>
         <Container>
             <Navbar.Brand href="/" className='page-name'>
-                <h2>ReviewVerse</h2>
+                <h2>Bookaroo</h2>
             </Navbar.Brand>
-            
             <Navbar.Toggle/>
             <Navbar.Collapse className='icons'>
             <Nav className="nav-data">
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
-            </form>
-            <button className= "menu-data">Search</button>
             <button className= "menu-data"> Login </button>
             
             </Nav>
