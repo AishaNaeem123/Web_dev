@@ -25,6 +25,8 @@ const NavBar = () => {
               <div>
                 <button onClick={handleClick}>SignUp</button>
               </div>
+              <button className="menu-data"> Contact Us</button>
+              <button className="menu-data"> Login </button>
             </Nav>
           </Navbar.Collapse>
         </Container>
