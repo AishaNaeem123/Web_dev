@@ -1,0 +1,30 @@
+/* Page404.css */
+
+/* Container for the 404 page */
+.page404-container {
+    text-align: center;
+    padding: 50px;
+}
+
+  /* Heading style for the 404 message */
+.page404-heading {
+    font-size: 3rem;
+    color: #ff6347; /* Tomato color */
+}
+
+  /* Message under the heading */
+.page404-message {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+  /* Style for the link to the home page */
+.page404-link {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.page404-link:hover {
+    text-decoration: underline;
+}
