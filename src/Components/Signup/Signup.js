@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Signup.css";
 
 function SignUp({ toggle }) {
   const [username, setUsername] = useState("");
